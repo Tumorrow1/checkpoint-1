@@ -43,10 +43,14 @@ col {
     flex-flow: column;
     align-items: center;
   }
-  #_boxes_ .col-4 {
+  #_boxes_ .col-md-4 {
     order: 1;
   }
-  #_boxes_ .col-3 {
+  #_boxes_ .col-md-3 {
     order: 2;
   }
+}
+
+#_boxes_ .card {
+  padding: 2.5em 0;
 }
