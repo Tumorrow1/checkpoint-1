@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(1, 36, 3);
+  flex-direction: row;
+  flex-direction: column;
+}
+
+img {
+  max-width: 530px;
+}
+
+.img {
+  max-width: 330px;
+}
+
+header {
+  flex-direction: end;
+  flex-direction: end;
+}
+
+col {
+  flex-direction: column-reverse;
+}
+
+.l-card {
+  min-height: 500px;
+}
+
+.text-on-pic {
+  position: absolute;
+  bottom: 150px;
+  left: 100px;
+  background: linear-gradient(to right, #fff, #000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.card-flow {
+  position: relative;
+  bottom: 8em;
+}
+@media screen and (max-width: 756px) {
+  #_boxes_ {
+    flex-flow: column;
+    align-items: center;
+  }
+  #_boxes_ .col-4 {
+    order: 1;
+  }
+  #_boxes_ .col-3 {
+    order: 2;
+  }
+}
